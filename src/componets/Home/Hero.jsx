@@ -40,7 +40,7 @@ function Hero() {
     <div>
         <>
       {/*<!-- Component: Carousel with controls inside --> */}
-      <div className="glide-01 relative w-full">
+      <div className="glide-01 relative w-full bg-[#ebebed]">
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">

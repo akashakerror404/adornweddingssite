@@ -14,17 +14,17 @@ const makePhoneCall = () => {
 function Headline() {
   return (
     <div>
-      <div className="flex bg-[#ebebed] h-[350px]">
+      <div className="flex bg-[#ebebed] md:h-[300px]">
         <div className="w-full p-6 flex justify-center md:pt-20">
           <div className="w-full md:w-[95%] lg:w-[80%] xl:w-[75%] 2xl:w-[70%] p-5 md:p-6 bg-opacity-60 rounded-[40px] flex-col md:flex-row">
             <div className="md:flex">
               <div className="md:w-7/12">
-                <h1 className="font-Poppins italic md:text-3xl text-3xl md:mb-8 mb-2">Welcome to</h1>
-                <h1 className="md:text-6xl text-4xl font-Poppins leading-14 tracking-wide">ADRON WEDDING</h1>
+                <h1 className="font-Poppins italic md:text-3xl text-2xl md:mb-8 mb-2">Welcome to</h1>
+                <h1 className="md:text-6xl text-3xl font-Poppins leading-14 tracking-wide">ADRON WEDDING</h1>
               </div>
               <div className="md:w-5/12">
                 <p className="mb-4 text-gray-400 font-Poppins">
-                  Our team is dedicated to providing you with not just photographs, but a visual narrative that tells the unique story of your wedding day. We focus on the details, emotions, and candid moments that make your celebration truly exceptional.
+                At Adorn we believe in turning your special moments into timeless memories. As a premier wedding photography company, we specialize in capturing the essence of your love story through the lens of our skilled photographers.
                 </p>
                 <div className="flex justify-center w-full md:justify-start gap-x-4">
                   <div className="px-3 md:px-5 py-1 bg-black rounded-xl flex justify-end items-center gap-3 text-white cursor-pointer" onClick={makePhoneCall}>
@@ -43,6 +43,7 @@ function Headline() {
                       Read more
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>

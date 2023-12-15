@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Navbar from './componets/Navbar/Navbar'
 import Hero from './componets/Home/Hero'
 import Headline from './componets/Home/Headline'
+import Content from './componets/Home/Content'
+import WhatsApp from './componets/whatapp/Whatsapp'
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Navbar/>
       <Hero/>
       <Headline/>
+      <Content/>
+      <WhatsApp/>
     </>
   )
 }
