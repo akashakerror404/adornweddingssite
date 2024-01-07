@@ -5,6 +5,7 @@ import hi3 from '../../assets/hi3.jpg';
 import hi4 from '../../assets/hi4.jpg';
 import { useState } from "react";
 import { motion } from "framer-motion";
+import './Content.css';
 
 
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
@@ -25,16 +26,22 @@ function Content() {
 
             </div>
 
-            <div class="flex  bg-[#ebebed] pt-6">
+            <div class="flex  bg-[#ebebed] pt-4">
                 <div class="w-full bg-[#ebebed] h-12 text-center md:text-sm container mx-auto px-4 text-gray-400">
                     <h1 className='md:text-3xl text-2xl'>Our Highlights
                     </h1>
+                    <div className='mt-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <hr class="bookends" />
+                </div>
+
+                    
+
 
                 </div>
 
             </div>
 
-            <div className='bg-[#ebebed] md:pt-7 pt-3'>
+            <div className='bg-[#ebebed] md:pt-7 '>
                 <div class="md:flex  container mx-auto">
                     <div className="md:w-1/3  h-80 text-center flex flex-col gap-y-5 justify-center p-4">
                         <p className="">Unparalleled Elegance</p>

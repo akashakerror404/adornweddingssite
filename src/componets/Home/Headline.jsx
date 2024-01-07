@@ -14,7 +14,7 @@ const makePhoneCall = () => {
 function Headline() {
   return (
     <div>
-      <div className="flex bg-[#ebebed] md:h-[300px]">
+      <div className="flex bg-[#ebebed] ">
         <div className="w-full p-6 flex justify-center md:pt-20">
           <div className="w-full md:w-[95%] lg:w-[80%] xl:w-[75%] 2xl:w-[70%] p-5 md:p-6 bg-opacity-60 rounded-[40px] flex-col md:flex-row">
             <div className="md:flex">
