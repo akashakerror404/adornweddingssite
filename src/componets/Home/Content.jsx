@@ -26,7 +26,7 @@ function Content() {
 
             </div>
 
-            <div class="flex  bg-[#ebebed] pt-4">
+            <div class="flex  bg-[#3ef45c] pt-4">
                 <div class="w-full bg-[#ebebed] h-12 text-center md:text-sm container mx-auto px-4 text-gray-400">
                     <h1 className='md:text-3xl text-2xl'>Our Highlights
                     </h1>
